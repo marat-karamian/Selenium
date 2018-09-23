@@ -11,12 +11,14 @@ public class FirstSeleniumTry {
         System.setProperty("webdriver.chrome.driver", exepath);
         WebDriver driver = new ChromeDriver();
 
-        driver.get("https://www.google.com/");
+        String url = "https://www.google.com";
+        driver.get(url);
 
         System.out.println("Successfully opened the website https://www.google.com/");
 
-        Thread.sleep(5000);
-
         driver.quit();
+
+        Exercise1 exercise1 = new Exercise1();
+        exercise1.Excersise();
     }
 }
