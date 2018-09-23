@@ -1,24 +1,30 @@
 package JavaTrainings.epam;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import java.util.Scanner;
 
 public class FirstSeleniumTry {
 
-    public static void main(String[] args) throws Throwable {
+    public static void main(String[] args) throws InterruptedException {
 
-        String exepath = "C:\\Users\\mkara\\Documents\\JavaMP\\chromedriver.exe";
-        System.setProperty("webdriver.chrome.driver", exepath);
-        WebDriver driver = new ChromeDriver();
+        Scanner in = new Scanner(System.in);
+        int choice = in.nextInt();
+        switch (choice) {
+            case 1:
+                FirstTry firstTry = new FirstTry();
+                firstTry.First();
+                break;
+            case 2:
+                Exercise1 exercise1 = new Exercise1();
+                exercise1.Ex1();
+                break;
+            case 3:
+                Exercise2 exercise2 = new Exercise2();
+                exercise2.Ex2();
+                break;
+            default:
+                break;
+        }
 
-        String url = "https://www.google.com";
-        driver.get(url);
-
-        System.out.println("Successfully opened the website https://www.google.com/");
-
-        driver.quit();
-
-        Exercise1 exercise1 = new Exercise1();
-        exercise1.Excersise();
     }
+
 }
