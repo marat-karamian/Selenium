@@ -4,9 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Exercise2 {
+public class Navigate {
 
-    public void Ex2() throws InterruptedException {
+    public void nav() throws InterruptedException {
 
         DriverConfig driverConfig = new DriverConfig();
         driverConfig.config();

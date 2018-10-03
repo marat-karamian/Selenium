@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Exercise1 {
 
-    public void Ex1() {
+    public void ex1() {
 
         DriverConfig driverConfig = new DriverConfig();
         driverConfig.config();

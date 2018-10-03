@@ -15,16 +15,21 @@ public class FirstSeleniumTry {
                 break;
             case 2:
                 Exercise1 exercise1 = new Exercise1();
-                exercise1.Ex1();
+                exercise1.ex1();
                 break;
             case 3:
-                Exercise2 exercise2 = new Exercise2();
-                exercise2.Ex2();
+                Navigate exercise2 = new Navigate();
+                exercise2.nav();
                 break;
+            case 4:
+                RespEarth respEarth = new RespEarth();
+                respEarth.earth();
+            case 5:
+                ResizeWindow resizeWindow = new ResizeWindow();
+                resizeWindow.resize();
             default:
                 break;
         }
-
     }
 
 }
