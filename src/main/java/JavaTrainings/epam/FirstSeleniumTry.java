@@ -27,6 +27,9 @@ public class FirstSeleniumTry {
             case 5:
                 ResizeWindow resizeWindow = new ResizeWindow();
                 resizeWindow.resize();
+            case 6:
+                WindowSwitch windowSwitch = new WindowSwitch();
+                windowSwitch.switchWindow();
             default:
                 break;
         }
