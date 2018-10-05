@@ -8,7 +8,7 @@ public class Exercise1 {
     public void ex1() {
 
         DriverConfig driverConfig = new DriverConfig();
-        driverConfig.config();
+        driverConfig.chrome();
         WebDriver driver = new ChromeDriver();
 
         String url = "https://en.wikipedia.org";

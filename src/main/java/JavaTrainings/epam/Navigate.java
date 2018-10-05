@@ -9,7 +9,7 @@ public class Navigate {
     public void nav() throws InterruptedException {
 
         DriverConfig driverConfig = new DriverConfig();
-        driverConfig.config();
+        driverConfig.chrome();
         WebDriver driver = new ChromeDriver();
 
         String url = "https://en.wikipedia.org";

@@ -7,6 +7,8 @@ public class Firefox {
 
     public void FF() throws InterruptedException {
 
+        DriverConfig driverConfig = new DriverConfig();
+        driverConfig.firefox();
         WebDriver driver = new FirefoxDriver();
         driver.get("http://docs.seleniumhq.org/docs/");
 

@@ -8,7 +8,7 @@ public class FirstTry {
     public void First() {
 
         DriverConfig driverConfig = new DriverConfig();
-        driverConfig.config();
+        driverConfig.chrome();
         WebDriver driver = new ChromeDriver();
 
         String url = "https://www.google.com";

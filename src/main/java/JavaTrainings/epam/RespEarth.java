@@ -8,7 +8,7 @@ public class RespEarth {
     public void earth() throws InterruptedException {
 
         DriverConfig driverConfig = new DriverConfig();
-        driverConfig.config();
+        driverConfig.chrome();
         WebDriver driver = new ChromeDriver();
 
         String url = "http://resp-earth.ctco-ecom.projects.epam.com";

@@ -30,6 +30,9 @@ public class FirstSeleniumTry {
             case 6:
                 WindowSwitch windowSwitch = new WindowSwitch();
                 windowSwitch.switchWindow();
+            case 7:
+                Firefox firefox = new Firefox();
+                firefox.FF();
             default:
                 break;
         }

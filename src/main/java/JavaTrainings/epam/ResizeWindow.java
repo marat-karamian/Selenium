@@ -12,7 +12,7 @@ public class ResizeWindow {
     public void resize() throws InterruptedException {
 
         DriverConfig driverConfig = new DriverConfig();
-        driverConfig.config();
+        driverConfig.chrome();
         WebDriver driver = new ChromeDriver();
         Thread.sleep(1000);
 
