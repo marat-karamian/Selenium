@@ -24,15 +24,22 @@ public class FirstSeleniumTry {
             case 4:
                 RespEarth respEarth = new RespEarth();
                 respEarth.earth();
+                break;
             case 5:
                 ResizeWindow resizeWindow = new ResizeWindow();
                 resizeWindow.resize();
+                break;
             case 6:
                 WindowSwitch windowSwitch = new WindowSwitch();
                 windowSwitch.switchWindow();
+                break;
             case 7:
                 Firefox firefox = new Firefox();
                 firefox.FF();
+                break;
+            case 8:
+                Alerts alerts = new Alerts();
+                alerts.alert();
             default:
                 break;
         }

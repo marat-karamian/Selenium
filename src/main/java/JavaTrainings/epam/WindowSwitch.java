@@ -12,7 +12,7 @@ public class WindowSwitch {
     public void switchWindow() throws InterruptedException {
 
         DriverConfig driverConfig = new DriverConfig();
-        driverConfig.config();
+        driverConfig.chrome();
         WebDriver driver = new ChromeDriver();
         String url = "http://toolsqa.com/automation-practice-switch-windows";
 
@@ -25,7 +25,6 @@ public class WindowSwitch {
         System.out.println(handle);
 
         driver.manage().window().maximize();
-        //driver.findElement(By.name("New Message Window")).click();
         driver.findElement(By.xpath("//div[@id='content']/p[3]/button")).click();
         Thread.sleep(1000);
 
@@ -40,7 +39,7 @@ public class WindowSwitch {
         Thread.sleep(1000);
         driver.close();
 
-        Thread.sleep(000);
+        Thread.sleep(1000);
         driver.quit();
 
     }

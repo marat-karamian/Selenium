@@ -4,6 +4,7 @@ import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.awt.*;
 
@@ -12,8 +13,8 @@ public class ResizeWindow {
     public void resize() throws InterruptedException {
 
         DriverConfig driverConfig = new DriverConfig();
-        driverConfig.chrome();
-        WebDriver driver = new ChromeDriver();
+        driverConfig.firefox();
+        WebDriver driver = new FirefoxDriver();
         Thread.sleep(1000);
 
         System.out.println(driver.manage().window().getSize());
