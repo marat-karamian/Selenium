@@ -40,6 +40,11 @@ public class FirstSeleniumTry {
             case 8:
                 Alerts alerts = new Alerts();
                 alerts.alert();
+                break;
+            case 9:
+                FindAllLinks findAllLinks = new FindAllLinks();
+                findAllLinks.allLinks();
+                break;
             default:
                 break;
         }
