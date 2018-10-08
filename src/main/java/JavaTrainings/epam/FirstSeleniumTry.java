@@ -45,6 +45,10 @@ public class FirstSeleniumTry {
                 FindAllLinks findAllLinks = new FindAllLinks();
                 findAllLinks.allLinks();
                 break;
+            case 10:
+                Homework1 homework1 = new Homework1();
+                homework1.hw1();
+                break;
             default:
                 break;
         }
