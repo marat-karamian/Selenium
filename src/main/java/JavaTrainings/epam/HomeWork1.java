@@ -31,6 +31,7 @@ public class HomeWork1 {
 
         WebElement newsFeed = driver.findElement(By.xpath("//*[@id=\"navItem_4748854339\"]/a/div"));
 
+        //Checks if news feed is enabled
         boolean isLogged = newsFeed.isEnabled();
         if (isLogged) {
             System.out.println("The user is logged in");
