@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class HomeWork1 {
 
-    public void hw1() throws InterruptedException {
+    public void hw1() {
 
         DriverConfig driverConfig = new DriverConfig();
         driverConfig.chrome();
