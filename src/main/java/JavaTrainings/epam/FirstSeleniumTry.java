@@ -49,6 +49,9 @@ public class FirstSeleniumTry {
                 HomeWork1 homework1 = new HomeWork1();
                 homework1.hw1();
                 break;
+            case 11:
+                CheckRadioBtn checkRadioBtn = new CheckRadioBtn();
+                checkRadioBtn.btn();
             default:
                 break;
         }
