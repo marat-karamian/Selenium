@@ -18,6 +18,7 @@ public class Alerts {
 
         String url = "http://toolsqa.com/automation-practice-switch-windows";
         driver.get(url);
+        driver.manage().window().maximize();
 
         driver.findElement(By.id("alert")).click();
 

@@ -52,6 +52,9 @@ public class FirstSeleniumTry {
             case 11:
                 CheckRadioBtn checkRadioBtn = new CheckRadioBtn();
                 checkRadioBtn.btn();
+            case 12:
+                Download download = new Download();
+                download.load();
             default:
                 break;
         }
